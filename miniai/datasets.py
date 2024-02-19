@@ -87,7 +87,7 @@ def show_images(ims:list, # Images to show
                 titles:list|None=None, # Optional list of titles of each image
                 **kwargs):
     "Show all images `ims` as subplots with `rows` using `titles`"
-    axs = get_grid(len(ims),  *kwargs)[1].flat
+    axs = get_grid(len(ims),  **kwargs)[1].flat
     for im,t,ax in zip_longest(ims, titles or [], axs): show_image(im, ax=ax, title=t)
 
 #|export
