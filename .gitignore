@@ -1,4 +1,2 @@
-miniai/__pycache__/__init__.cpython-312.pyc
-miniai/__pycache__/datasets.cpython-312.pyc
-miniai/__pycache__/training.cpython-312.pyc
-miniai/resnet.py:Zone.Identifier
+miniai/__pycache__/*
+**.Identifier
